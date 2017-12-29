@@ -1,0 +1,87 @@
+
+page {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 100%;
+height: 100%;
+margin-top:0;
+display: flex;
+flex-direction: column;
+
+}
+
+
+#wrap:active,#pen:active,#clear:active{
+  background-color:orange;
+}
+
+#clear,#wrap,#pen{
+   border: 1px solid black;
+   width:30%;
+   font-size: 20rpx;
+   text-align: center;
+   border-radius:15rpx;
+   height: 40px;
+   line-height: 40px;
+   background-color: cyan;
+
+}
+
+#penSize{
+  width: 300rpx;
+  float: left;
+  position: relative;
+  line-height: 20rpx;
+
+}
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  height: 20%;
+  flex-wrap: wrap; 
+
+}
+
+
+.top{
+ width: 100%;
+ height: 80%;
+ flex: 1;
+
+}
+
+.canva{
+  width: 100%;
+  height: 100%;
+  top:0;
+  background-color: ghostwhite;
+}
+
+
+#circle{
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin:5px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+#rect{
+  width: 45px;
+  margin:5px;
+  height: 45px;
+  border:2px soild black;
+}
+
+/* first.wxss */

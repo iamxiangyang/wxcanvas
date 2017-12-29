@@ -1,0 +1,35 @@
+<view class="container">
+
+<view class="top">
+
+<canvas canvas-id="board" class="canva" bindtouchstart="start" bindtouchmove="move" bindtouchend="end"
+disable-scroll="true">
+</canvas>
+
+</view>
+
+<view  class="items">
+
+<picker id="pen"  bindchange="selectColor" value="{{index}}" range="{{array}}">
+颜色
+</picker>
+
+<button id="wrap" bindtap="wrap">橡皮擦</button>
+<button id="clear" bindtap="clear">清空</button>
+
+<button bindtap="circle" id="circle">圆</button>
+
+<button bindtap="rect" id="rect">矩形</button>
+
+</view> 
+
+
+<text>尺寸</text>
+<slider id="penSize"  show-value = "true" bindchange="size" step="1" value="{{width}}" min="1" max="20"/>
+
+
+ 
+
+
+</view>
+

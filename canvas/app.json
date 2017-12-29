@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "趣画画",
+    "navigationBarTextStyle": "black"
+  }
+
+}
